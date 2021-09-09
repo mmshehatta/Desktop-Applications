@@ -22,7 +22,7 @@ class MainWindow(QMainWindow):
 
         completer = QCompleter(["Mahmoud","Muhammed","Moaz","Mourad"])
         self.ent1.setCompleter(completer)
-        
+         
         self.ent2 = self.findChild(QLineEdit , "lineEdit_2")
         self.selectbtn = self.findChild(QPushButton , "pushButton_6")
         self.unSelectbtn = self.findChild(QPushButton , "pushButton_5")
